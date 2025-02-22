@@ -1,0 +1,18 @@
+name: vubex-security-spigot
+version: '${project.version}'
+main: de.flavius.vubex.vubexsecurityspigot.Vubex_security_spigot
+author: flavius
+api-version: '1.19'
+load: STARTUP
+softdepend:
+  - ProtocolLib
+  - ProtocolSupport
+  - ViaVersion
+  - ViaBackwards
+  - ViaRewind
+  - Geyser-Spigot
+
+commands:
+  vubexsecurity:
+    description: Main command for Vubex Security plugin
+    aliases: [anticrash, antiexploit, crashfix, crashblocker]

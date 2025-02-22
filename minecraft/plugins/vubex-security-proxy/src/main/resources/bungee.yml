@@ -1,0 +1,4 @@
+name: vubex-security-proxy
+version: '${project.version}'
+main: de.flavius.vubex.vubexsecurityproxy.Vubex_security_proxy
+author: flavius

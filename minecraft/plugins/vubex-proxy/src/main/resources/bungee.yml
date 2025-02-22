@@ -1,0 +1,4 @@
+name: vubex-proxy
+version: '${project.version}'
+main: de.flavius.vubex.vubexproxy.Vubex_proxy
+author: flavius
